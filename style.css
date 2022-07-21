@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 100px;
+}
+.card {
+  max-width: 500px;
+}
+#input {
+  border: 0;
+  /* color: aqua; */
+  box-shadow: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
